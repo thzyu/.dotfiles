@@ -11,8 +11,15 @@ local config = wezterm.config_builder()
 
 config = {
     font = wezterm.font('JetBrains Mono', { weight = 'Bold' }),
+    font_size = 14,
     window_close_confirmation = "NeverPrompt",
     enable_tab_bar = false,
+    window_padding = {
+        left = 0,
+        right = 0,
+        top = 0,
+        bottom = 0,
+    }
 }
 
 -- and finally, return the configuration to wezterm
