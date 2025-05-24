@@ -10,6 +10,7 @@ local config = wezterm.config_builder()
 -- config.color_scheme = 'AdventureTime'
 
 config = {
+    default_prog = { "fish" },
     font = wezterm.font('JetBrains Mono', { weight = 'Bold' }),
     font_size = 14,
     window_close_confirmation = "NeverPrompt",
